@@ -1,0 +1,59 @@
+.modal{
+  color:#fff;
+  width:80%;
+  /* height: 40rem; */
+  padding-top: 3%;
+  padding-left: 4%;
+  text-align: center;
+  overflow-y: scroll;
+  background: #181C4D;
+  top:0;
+  z-index: 4;
+  font-size: 0.97rem;
+  /* margin-top: 15%; */
+};
+  
+.ReactModalPortal>div{
+  opacity: 0;
+  overflow-y: scroll;
+};
+
+.ReactModalPortal .ReactModal__Overlay{
+  text-align: center;
+  transition: opacity 200ms ease-in-out;
+  overflow-y: scroll;
+};
+
+.ReactModalPortal .ReactModal__Overlay--after-open{
+  opacity: 1;
+  overflow-y: scroll;
+};
+
+.ReactModalPortal .ReactModal__Overlay--before-close{
+  opacity: 0;
+};
+
+.last-child{
+  margin-bottom: 5rem;
+};
+
+.cat-table-tr{
+  width:100%;
+  padding: 2.8rem;
+  text-align: left;
+};
+
+.cat-left-child-p{
+  margin-left: 2rem;
+}
+
+.cat-left-child{
+  text-align: center;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  font-size: 0.97rem;
+};
+
+
+
+

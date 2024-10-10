@@ -1,0 +1,7 @@
+.interior{
+  background-image: url('../../../img/loader.png');
+  width:95%;
+  height: 30em;
+  margin: 2%;
+  background-repeat:repeat-x;
+};
